@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>School Dashboard</title>
+    <link  href="./student.css">
+  </head>
+  <body>
+    <h1>Welcome to the School Dashboard</h1>
+    
+    <h2>Announcements</h2>
+    <ul>
+      <li>Today is the last day to submit your science fair project</li>
+      <li>Field trip permission slips are due next Friday</li>
+      <li>Don't forget to sign up for the after-school chess club</li>
+    </ul>
+    
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li>May 5 - Cinco de Mayo celebration in the gym</li>
+      <li>May 10 - Parent-teacher conferences</li>
+      <li>May 20 - School talent show</li>
+    </ul>
+    
+    <h2>Class Schedules</h2>
+    <p>Click on your class below to view the schedule:</p>
+    <ul>
+      <li><a href="#">English</a></li>
+      <li><a href="#">Math</a></li>
+      <li><a href="#">Science</a></li>
+      <li><a href="#">History</a></li>
+    </ul>
+    
+    <h2>Gradebook</h2>
+    <p>Log in to view your grades:</p>
+    <form action="gradebook.php" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      
+      <input type="submit" value="Log In">
+    </form>
+    
+  </body>
+</html>
